@@ -80,7 +80,7 @@ Os resultados da análise exploratória e previsões foi possível identificar:
 
 ### **1. Clone o repositório:**
 ```bash
-   git clone https://github.com/pedrolouzeiro/case_beanalytic/.git
+   git clone https://github.com/pedrolouzeiro/case_beanalytic.git
 ```
 
 ### **2.Instale as dependências:**
