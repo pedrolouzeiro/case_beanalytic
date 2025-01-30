@@ -79,6 +79,6 @@ Os resultados da análise exploratória e previsões foi possível identificar:
 ### **Execute os scripts ou notebooks na seguinte ordem:**
 
   - Coleta de dados: notebooks/coleta_tratamento.ipynb.
-  - Análise: eda.ipynb.
-  - Modelagem: modelo.ipynb.
+  - Análise: notebooks/eda.ipynb.
+  - Modelagem: notebooks/modelo.ipynb.
 
