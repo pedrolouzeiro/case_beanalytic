@@ -58,6 +58,7 @@ Os resultados da análise exploratória e previsões foi possível identificar:
 
 ### **Estrutura do Repositório**
 
+```
 /projeto-imobiliario
 │
 ├── /data
