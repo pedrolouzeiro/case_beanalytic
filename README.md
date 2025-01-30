@@ -1,4 +1,4 @@
-# Análise de Séries Temporais: Razão de População vs Número de Empresas por Região
+# Análise e Previsão de Séries Temporais: Razão de População vs Número de Empresas por Região
 
 Este projeto tem como objetivo realizar uma análise da série temporal da razão entre a população em uma faixa etária específica (38-58 anos) e o número de empresas no mercado imobiliário de diversas regiões do Brasil. A análise considera o período de 2007 a 2020, com previsões para os anos de 2021 e 2022, e utiliza o modelo ARIMA para prever a evolução dessa razão em diferentes regiões.
 
@@ -40,12 +40,12 @@ Os resultados da análise exploratória e previsões foi possível identificar:
   
   O projeto utiliza o modelo ARIMA para prever a razão entre população e número de empresas nas cinco regiões do Brasil para 2021 e 2022. O uso de modelos de séries temporais e a análise do erro de previsão ajudam a fornecer insights valiosos sobre o crescimento das empresas em relação à população ao longo dos anos. As visualizações geradas ajudam a compreender as tendências para cada região, destacando as previsões futuras.
 
-- As previsões revelam que as regiões **Sudeste** e **Sul** apresentam as menores razões para os anos de 2021 e 2022, o que indica uma maior saturação do mercado nessas regiões.
+- As previsões revelam que as regiões **Centro-Oeste** e **Sul** apresentam as menores razões para os anos de 2021 e 2022, o que indica uma maior saturação do mercado nessas regiões.
 - As regiões **Norte** e **Nordeste** parecem ter maiores oportunidades para o crescimento, com uma razão mais baixa entre a população e o número de empresas.
 
 ## Dependências
 
-- **Python 3.x**: A versão recomendada para o ambiente Python.
+- **Python 3.11.7**: A versão recomendada para o ambiente Python.
 - **Bibliotecas**:
   - `pandas`: Para manipulação e análise de dados.
   - `numpy`: Para operações matemáticas.
@@ -76,5 +76,9 @@ Os resultados da análise exploratória e previsões foi possível identificar:
 ├── requirements.txt
 ```
 
+### **Execute os scripts ou notebooks na seguinte ordem:**
 
+  - Coleta de dados: notebooks/coleta_tratamento.ipynb.
+  - Análise: eda.ipynb.
+  - Modelagem: modelo.ipynb.
 
