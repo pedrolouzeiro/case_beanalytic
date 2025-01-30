@@ -76,8 +76,19 @@ Os resultados da análise exploratória e previsões foi possível identificar:
 ├── requirements.txt
 ```
 
-### **Execute os scripts ou notebooks na seguinte ordem:**
+## Instruções para Execução
 
+### **1. Clone o repositório:**
+```bash
+   git clone [https://github.com/seu-usuario/projeto-imobiliario](https://github.com/pedrolouzeiro/case_beanalytic/).git
+```
+
+### **2.Instale as dependências:**
+```bash
+   pip install -r requirements.txt
+```
+
+### **3.Execute os notebooks na seguinte ordem:**
   - Coleta de dados: notebooks/coleta_tratamento.ipynb.
   - Análise: notebooks/eda.ipynb.
   - Modelagem: notebooks/modelo.ipynb.
